@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
-
-
+# Boostrap
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sass-rails'
+gem 'sprockets', '2.11.0'
 # Rspec testing framework
 group :development, :test do
   gem 'rspec-rails', '~> 3.4'
@@ -12,8 +14,6 @@ gem 'rails_12factor', group: :production
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
