@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-# Boostrap
+
+gem 'simple_form'
+# Bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails'
 gem 'sprockets', '2.11.0'
