@@ -8,12 +8,13 @@ class GramsController < ApplicationController
   end
   
   def create
-    
+    @gram = Gram.create(gram_param)
+    redirect_to root_path
   end
   
   private
   
-  def parameters
-    
+  def gram_param
+    params.require(:gram).permit (:message)
   end
 end
