@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
 
+
+
+# Rspec testing framework
+group :development, :test do
+  gem 'rspec-rails', '~> 3.4'
+end
+# Rails 12 factor gem
 gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
