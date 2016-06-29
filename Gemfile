@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 gem 'factory_girl_rails', '~> 4.0'
+gem 'carrierwave'
 
 gem 'devise', '>= 3.2.4'
 gem 'simple_form'
